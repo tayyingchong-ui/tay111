@@ -18,8 +18,8 @@
     "jsx": "react-jsx",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "types": ["node"]
   },
-  "include": ["src", "index.tsx", "App.tsx", "types.ts", "constants.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["index.tsx", "App.tsx", "types.ts", "constants.ts"]
 }
